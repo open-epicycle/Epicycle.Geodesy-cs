@@ -1,10 +1,7 @@
-﻿using System;
+﻿using Epicycle.Graphics;
 using System.Collections.Generic;
-using System.Linq;
-using System.Xml.Linq;
 using System.IO;
-
-using Epicycle.Graphics;
+using System.Xml.Linq;
 
 namespace Epicycle.Geodesy.Kml
 {

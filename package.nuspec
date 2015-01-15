@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Epicycle.Geodesy-cs</id>
+    <version>0.1.0.0</version>
+    <title>Epicycle.Geodesy (.NET)</title>
+    <authors>Epicycle</authors>
+    <owners>Epicycle</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>https://github.com/open-epicycle/Epicycle.Geodesy-cs</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Epicycle .NET geodesy library. Includes: 2D and 3D LLA geo-point, WGS84/ECEF/ENU conversions, simple KML serialization.
+
+* Details &amp; release notes: https://github.com/open-epicycle/Epicycle.Geodesy-cs/blob/ver-$version$/README.md
+* Sources: https://github.com/open-epicycle/Epicycle.Geodesy-cs/tree/ver-$version$
+* Git repository: https://github.com/open-epicycle/Epicycle.Geodesy-cs</description>
+    <summary>Epicycle .NET geodesy library. Includes: 2D and 3D LLA geo-point, WGS84/ECEF/ENU conversions, simple KML serialization.</summary>
+    <releaseNotes>https://github.com/open-epicycle/Epicycle.Geodesy-cs/blob/ver-$version$/README.md</releaseNotes>
+    <copyright>Copyright 2015 Epicycle</copyright>
+    <language />
+    <tags>epicycle lib library geodesy geography gps geopoint lla ecef enu datum wgs84 kml</tags>
+
+    <dependencies>
+      <dependency id="Epicycle.Commons-cs" version="0.1.6.0" />
+      <dependency id="Epicycle.Math-cs" version="0.1.3.0" />
+      <dependency id="Epicycle.Graphics-cs" version="0.1.3.0" />
+    </dependencies>
+  </metadata>
+</package>

@@ -16,7 +16,7 @@ dotnet_frameworks:
 
 nuget_dependencies:
  - Epicycle.Commons-cs.0.1.6.0
- - Epicycle.Math-cs.0.1.3.0
+ - Epicycle.Math-cs.0.1.4.0
  - Epicycle.Graphics-cs.0.1.3.0
 
 description: |

@@ -19,4 +19,11 @@ xcopy bin\net45\Release\Epicycle.Geodesy_cs.dll NuGetPackage\Epicycle.Geodesy-cs
 xcopy bin\net45\Release\Epicycle.Geodesy_cs.pdb NuGetPackage\Epicycle.Geodesy-cs.0.1.2.0\lib\net45\
 xcopy bin\net45\Release\Epicycle.Geodesy_cs.xml NuGetPackage\Epicycle.Geodesy-cs.0.1.2.0\lib\net45\
 
+cd NuGetPackage
+nuget pack Epicycle.Geodesy-cs.0.1.2.0\Epicycle.Geodesy-cs.0.1.2.0.nuspec -Properties version=0.1.2.0
+7z a -tzip Epicycle.Geodesy-cs.0.1.2.0.zip Epicycle.Geodesy-cs.0.1.2.0 Epicycle.Geodesy-cs.0.1.2.0.nupkg
+
+echo nuget push Epicycle.Geodesy-cs.0.1.2.0.nupkg > push.cmd
+echo pause >> push.cmd
+
 pause

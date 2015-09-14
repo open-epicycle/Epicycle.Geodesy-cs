@@ -18,14 +18,14 @@
 // For more information check https://github.com/open-epicycle/Epicycle.Geodesy-cs
 // ]]]]
 
-using Epicycle.Graphics;
+using Epicycle.Graphics.Color;
 using System.Xml.Linq;
 
 namespace Epicycle.Geodesy.Kml
 {
     internal sealed class SegmentKmlElement : IKmlElement
     {
-        public SegmentKmlElement(GeoPoint3 start, GeoPoint3 end, Color4b? colour = null)
+        public SegmentKmlElement(GeoPoint3 start, GeoPoint3 end, ColorRGBA? colour = null)
         {
             _start = start;
             _end = end;
@@ -34,7 +34,7 @@ namespace Epicycle.Geodesy.Kml
 
         private readonly GeoPoint3 _start;
         private readonly GeoPoint3 _end;
-        private readonly Color4b? _colour;
+        private readonly ColorRGBA? _colour;
 
         public XElement ToXml()
         {

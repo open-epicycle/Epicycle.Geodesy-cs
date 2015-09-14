@@ -21,9 +21,9 @@
     <tags>epicycle lib library geodesy geography gps geopoint lla ecef enu datum wgs84 kml</tags>
 
     <dependencies>
-      <dependency id="Epicycle.Commons-cs" version="0.1.6.0" />
-      <dependency id="Epicycle.Math-cs" version="0.1.5.0" />
-      <dependency id="Epicycle.Graphics-cs" version="0.1.5.0" />
+      <dependency id="Epicycle.Commons-cs" version="0.1.8.0" />
+      <dependency id="Epicycle.Math-cs" version="0.1.6.0" />
+      <dependency id="Epicycle.Graphics-cs" version="0.1.6.0" />
     </dependencies>
   </metadata>
 </package>

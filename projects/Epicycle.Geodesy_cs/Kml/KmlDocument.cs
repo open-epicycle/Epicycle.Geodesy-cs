@@ -18,7 +18,7 @@
 // For more information check https://github.com/open-epicycle/Epicycle.Geodesy-cs
 // ]]]]
 
-using Epicycle.Graphics;
+using Epicycle.Graphics.Color;
 using System.Collections.Generic;
 using System.IO;
 using System.Xml.Linq;
@@ -34,7 +34,7 @@ namespace Epicycle.Geodesy.Kml
 
         private readonly IList<IKmlElement> _elements;
 
-        public void AddSegment(GeoPoint3 start, GeoPoint3 end, Color4b? colour = null)
+        public void AddSegment(GeoPoint3 start, GeoPoint3 end, ColorRGBA? colour = null)
         {
             _elements.Add(new SegmentKmlElement(start, end, colour));
         }

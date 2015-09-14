@@ -1,4 +1,4 @@
-# Epicycle.Geodesy-cs 0.1.4.0 [IN DEVELOPMENT]
+# Epicycle.Geodesy-cs 0.1.4.0
 Epicycle .NET geodesy library. Includes: 2D and 3D LLA geo-point, WGS84/ECEF/ENU conversions, simple KML serialization.
 
 ***Note***: *This library is in it's 0.X version, that means that it's still in active development and backward compatibility is not guaranteed!*
@@ -33,7 +33,7 @@ Copyright 2015 Epicycle (http://epicycle.org)
 ## Release Notes
 ### Version 0.1 
 
-* **Version 0.1.4** [IN DEVELOPMENT]
+* **Version 0.1.4** [2015-09-14]
   * Upgrading to Epicycle.Commons-cs.0.1.8.0
   * Upgrading to Epicycle.Math-cs.0.1.6.0
   * Upgrading to Epicycle.Graphics-cs.0.1.6.0
